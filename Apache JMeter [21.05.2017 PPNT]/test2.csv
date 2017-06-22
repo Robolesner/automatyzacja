@@ -1,0 +1,25 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1495369182904,13,Return host name to console,200,OK,httpbinorg 1-1,text,true,,0,0,1,1,0,0,0
+1495369182919,3222,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,3222,0,3108
+1495369186141,229,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,229,0,113
+1495369186371,113,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,113,0,0
+1495369186485,115,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,401,149,1,1,115,0,0
+1495369186601,115,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,115,0,0
+1495369186717,116,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,115,0,0
+1495369186833,114,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,114,0,0
+1495369186948,116,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,116,0,0
+1495369187065,124,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,401,149,1,1,123,0,0
+1495369187191,113,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,113,0,0
+1495369187305,117,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,401,149,1,1,117,0,0
+1495369187423,114,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,114,0,0
+1495369187538,114,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,114,0,0
+1495369187652,114,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,401,149,1,1,114,0,0
+1495369187766,114,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,401,149,1,1,114,0,0
+1495369187881,115,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,401,149,1,1,115,0,0
+1495369187997,121,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,121,0,0
+1495369188119,415,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,415,0,0
+1495369188534,224,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,224,0,110
+1495369188759,114,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,114,0,0
+1495369188874,113,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,401,149,1,1,112,0,0
+1495369188987,113,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,112,0,0
+1495369189100,111,GET - data from csv,200,OK,httpbinorg 1-1,text,true,,400,149,1,1,111,0,0
