@@ -14,7 +14,7 @@ Extranet (Fail login)
 Extranet (Success login)
     Open Browser    http://portal.wsb.pl    gc
     Input Text    username2    gax29279
-    Input Password    password    95042605074
+    Input Password    password    XXXXXXXXXXX
     Click Button    login_button
     Page Should Contain Image    Wyższe Szkoły Bankowe
     Page Should Contain Link    https://portal.wsb.pl/group/studenci/pulpit   
