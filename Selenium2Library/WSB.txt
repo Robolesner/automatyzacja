@@ -1,0 +1,21 @@
+*** Settings ***
+Library    Selenium2Library
+Library    Collections
+*** Variables ***
+
+*** Test Cases ***
+Extranet (Fail login)
+    Open Browser    http://portal.wsb.pl    gc
+    Input Text    username2    gax29279
+    Input Password    password    11111111111
+    Click Button    login_button
+    Location Should Be    https://cas.wsb.pl/login?service=https%3A%2F%2Fportal.wsb.pl%2Fc%2Fportal%2Flogin%3Fredirect%3D%252F%26p_l_id%3D0
+    Page Should Contain    Niepoprawne dane            
+Extranet (Success login)
+    Open Browser    http://portal.wsb.pl    gc
+    Input Text    username2    gax29279
+    Input Password    password    95042605074
+    Click Button    login_button
+    Page Should Contain Image    Wyższe Szkoły Bankowe
+    Page Should Contain Link    https://portal.wsb.pl/group/studenci/pulpit   
+    #Close All Browsers
